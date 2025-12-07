@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Pradita Badal - Get in touch for collaborations, opportunities, or questions.">
+    <meta name="keywords" content="Pradita Badal, Contact, Django Developer, Hire Developer">
+    <meta name="author" content="Pradita Badal">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact • Pradita Badal">
+    <meta property="og:description" content="Get in touch for collaborations, opportunities, or questions.">
+    
+    <title>Contact • Pradita Badal</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+<!-- Animated Background -->
+<div class="animated-bg">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+</div>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="index.html" class="logo">Pradita.dev</a>
+        <nav class="nav" id="mainNav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+<main class="container contact-page">
+    <h1>Contact</h1>
+    <div class="contact-grid">
+        <div>
+            <h2>Get in touch</h2>
+            <p>Email: <a href="mailto:praditabadal5@gmail.com">praditabadal5@gmail.com</a></p>
+            <p>Phone: <a href="tel:+9779803303390">+977 9803303390</a></p>
+            <p>Location: Kathmandu, Nepal</p>
+        </div>
+
+        <div>
+            <h2>Send a message</h2>
+            <!-- Simple form using Formspree (no backend) -->
+            <form action="https://formspree.io/f/your-form-id" method="POST" id="contactForm">
+                <label for="name">
+                    Your name
+                    <input type="text" id="name" name="name" required aria-required="true">
+                </label>
+                <label for="email">
+                    Email
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </label>
+                <label for="message">
+                    Message
+                    <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+                </label>
+                <button class="btn" type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <p>© 2025 Pradita Badal — Built with ❤️ using Django</p>
+        <nav aria-label="Footer navigation">
+            <a href="https://github.com/praditacodes" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://linkedin.com/in/pradita-badal-1535b1275" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </nav>
+    </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
