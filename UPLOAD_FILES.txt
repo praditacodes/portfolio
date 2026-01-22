@@ -1,0 +1,28 @@
+FILES TO UPLOAD TO YOUR WEB HOSTING (public_html folder):
+
+📁 Root Files:
+- index.html
+- about.html
+- projects.html
+- contact.html
+- sitemap.xml
+- robots.txt
+- CNAME (optional)
+
+📁 Folders:
+- assets/
+  ├── css/
+  │   └── style.css
+  ├── js/
+  │   └── script.js
+  └── images/
+      └── profile.jpg
+
+📋 IMPORTANT:
+1. Upload ALL files to public_html (or www) folder
+2. Keep the folder structure exactly as shown
+3. index.html MUST be in the root (public_html)
+4. assets/ folder should be in root alongside index.html
+
+✅ After upload, your site will be live at:
+https://praditabadal.com.np/
